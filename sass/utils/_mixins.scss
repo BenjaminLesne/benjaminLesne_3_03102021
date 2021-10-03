@@ -1,0 +1,9 @@
+@mixin flexbox-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin logo-MenuName-fontFamily {
+	font-family: 'Shrikhand', cursive;
+}
