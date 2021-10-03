@@ -1,0 +1,13 @@
+.header {
+	@include flexbox-center;
+
+	& .logo {
+		@include logo-MenuName-fontFamily;
+	}
+
+	&--with-box-shadow {
+		box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
+		-webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
+		-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
+	}
+}
