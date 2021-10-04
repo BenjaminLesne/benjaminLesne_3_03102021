@@ -1,0 +1,20 @@
+body {
+	max-width: 1200px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: initial;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.logo {
+	@include logo-MenuName-fontFamily;
+	margin-bottom: 10px;
+}

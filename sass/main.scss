@@ -16,5 +16,12 @@
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./base/_normalize";
+@import "./base/_styles";
 @import "./base/typography";
 @import "./layout/_header";
+@import "./layout/_footer";
+@import "./layout/_short-presentation-section";
+@import "./layout/_list-items-section";
+@import "./components/_how-it-works-item";
+@import "./components/_product";
+@import "./components/_animated-heart";
