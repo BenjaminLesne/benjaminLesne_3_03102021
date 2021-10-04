@@ -1,0 +1,21 @@
+.list-items-section {
+	padding: 30px 15px;
+
+	&--background-color {
+		background-color: $color-quaternary;
+	}
+
+	&__title {
+		@include titles;
+		margin-bottom: 15px;
+	}
+}
+
+.list-items-wrapper {
+	padding: 0;
+	list-style: none;
+	margin-left: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

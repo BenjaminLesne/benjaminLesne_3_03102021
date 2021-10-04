@@ -1,0 +1,34 @@
+.animated-heart {
+	position: relative;
+
+	&__heart-logo {
+		color: black;
+		transition-duration: 0.75s;
+		font-size: 25px;
+		position: relative;
+		overflow: hidden;
+		z-index: 5;
+		background-color: transparent;
+
+		&:hover {
+			color: transparent;
+			transition-duration: 0.75s;
+
+			& + .animated-heart__bg-color-animation {
+				transform: translateY(-100%);
+				transition: 0.75s;
+			}
+		}
+	}
+	&__bg-color-animation {
+		transform: translateY(100%);
+		transition: 0.75s;
+		border: solid;
+
+		background: $color-gradient-primary-secondary;
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		z-index: 1;
+	}
+}

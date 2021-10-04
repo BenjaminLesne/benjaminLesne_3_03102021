@@ -1,9 +1,7 @@
 .header {
 	@include flexbox-center;
-
-	& .logo {
-		@include logo-MenuName-fontFamily;
-	}
+	position: relative;
+	z-index: 5;
 
 	&--with-box-shadow {
 		box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
