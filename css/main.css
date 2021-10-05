@@ -568,33 +568,55 @@ body {
 
 .animated-heart {
   position: relative;
+  max-width: 40px;
+  overflow: hidden;
 }
-.animated-heart__heart-logo {
+.animated-heart__static-heart, .animated-heart__translating-heart {
   color: black;
   transition-duration: 0.75s;
   font-size: 25px;
   position: relative;
   overflow: hidden;
   z-index: 5;
-  background-color: transparent;
+  fill: linear-gradient(350deg, #9356dc 0%, #ff79da 100%);
 }
-.animated-heart__heart-logo:hover {
+.animated-heart__static-heart:hover, .animated-heart__translating-heart:hover {
   color: transparent;
   transition-duration: 0.75s;
 }
-.animated-heart__heart-logo:hover + .animated-heart__bg-color-animation {
+.animated-heart__static-heart:hover + .animated-heart__bg-color-animation, .animated-heart__translating-heart:hover + .animated-heart__bg-color-animation {
   transform: translateY(-100%);
   transition: 0.75s;
 }
-.animated-heart__bg-color-animation {
-  transform: translateY(100%);
-  transition: 0.75s;
-  border: solid;
-  background: linear-gradient(350deg, #9356dc 0%, #ff79da 100%);
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  z-index: 1;
+.animated-heart__gradient-stop-1 {
+  stop-color: #9356dc;
+}
+.animated-heart__gradient-stop-2 {
+  stop-color: #ff79da;
+}
+.animated-heart:hover .animated-heart__translating-heart {
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  transform: translateY(-210%);
+}
+.animated-heart:hover .animated-heart__translating-heart path {
+  stroke: transparent;
+  transition: 0.5s;
+}
+.animated-heart__translating-heart {
+  overflow: visible;
+  transform: translateY(-110%);
+  background-color: white;
+}
+.animated-heart__translating-heart path {
+  fill: transparent;
+  stroke: black;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.animated-heart__translating-heart:hover path {
+  stroke: transparent;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=main.css.map */
