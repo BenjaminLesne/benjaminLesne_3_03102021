@@ -24,21 +24,26 @@
     <script src="https://kit.fontawesome.com/0902388030.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="body">
+    <div class="loading-screen">
+        <div class="loading-screen__logo-wrapper">
+            <span class="loading-screen__logo"><span class="loading-screen__inner-logo"></span></span>
+        </div>
+    </div>
     <header class="header header--with-box-shadow">
         <h1 class="logo">ohmyfood</h1>
     </header>
     <main>
         <section class="short-presentation-section">
             <div class="short-presentation-section__location"><i class="fas fa-map-marker-alt"></i> Paris,
-                Belleville</span></div>
+                Belleville</div>
             <div class="short-presentation-section__text">
                 <div class="short-presentation-section__title">Réservez le menu qui vous convient</div>
                 <div class="short-presentation-section__description">
                     Découvrez des restaurants d'exception, sélectionnés
                     par nos soins.
                 </div>
-                <div><button class="short-presentation-section__button">Explorer nos restaurants</button></div>
+                <div><button class="call-to-action-btn">Explorer nos restaurants</button></div>
             </div>
 
         </section>
@@ -50,7 +55,7 @@
                 </li>
                 <li class="how-it-works-item"><span>2</span><i class="fas fa-list-ul how-it-works-item__icon"></i>
                     Composez votre menu</li>
-                <li class="how-it-works-item"><span>3</span><i
+                <li class="how-it-works-item how-it-works-item--purpleish-bg"><span>3</span><i
                         class="fas fa-store how-it-works-item__icon how-it-works-item__icon--purple "></i>
                     Dégustez au
                     restaurant</li>
@@ -86,7 +91,7 @@
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     viewBox="10 10 24 24">
                                     <defs>
-                                        <linearGradient id="linear-gradient">
+                                        <linearGradient id="linear-gradient-heart">
                                             <stop class="animated-heart__gradient-stop-1" offset="0">
 
                                             </stop>
@@ -95,7 +100,7 @@
                                             </stop>
                                         </linearGradient>
                                     </defs>
-                                    <path fill="url(#linear-gradient)"
+                                    <path fill="url(#linear-gradient-heart)"
                                         d="M20,31 C15.4189994,27.2225585 12.5023327,24.2225585 11.25,22 C10.2743515,20.6156479 10,19.6181623 10,18.1428571 C10,15.5113854 12.4883456,13 15,13 C17.3176009,13 18.9621484,13.8491346 20,15.5714286 C21.0382977,13.8491346 22.6828452,13 25,13 C27.5116544,13 30,15.5113854 30,18.1428571 C30,19.6181623 29.7256485,20.6156479 28.75,22 C27.497816,24.2225585 24.5811493,27.2225585 20,31 Z" />
                                 </svg>
                                 <svg class="animated-heart__translating-heart" xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +162,7 @@
                 </li>
                 <li class="product">
                     <div class="product__top-content-wrapper">
-                        <a href="#">
+                        <a href="a-la-francaise-menu-page.html">
                             <div>
                                 <img src="images/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                                     alt="Photo d'un plat de chez Â la française" class="product__image">
@@ -179,7 +184,7 @@
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     viewBox="10 10 24 24">
                                     <defs>
-                                        <linearGradient id="linear-gradient">
+                                        <linearGradient id="linear-gradient-heart2">
                                             <stop class="animated-heart__gradient-stop-1" offset="0">
 
                                             </stop>
@@ -188,7 +193,7 @@
                                             </stop>
                                         </linearGradient>
                                     </defs>
-                                    <path fill="url(#linear-gradient)"
+                                    <path fill="url(#linear-gradient-heart2)"
                                         d="M20,31 C15.4189994,27.2225585 12.5023327,24.2225585 11.25,22 C10.2743515,20.6156479 10,19.6181623 10,18.1428571 C10,15.5113854 12.4883456,13 15,13 C17.3176009,13 18.9621484,13.8491346 20,15.5714286 C21.0382977,13.8491346 22.6828452,13 25,13 C27.5116544,13 30,15.5113854 30,18.1428571 C30,19.6181623 29.7256485,20.6156479 28.75,22 C27.497816,24.2225585 24.5811493,27.2225585 20,31 Z" />
                                 </svg>
                                 <svg class="animated-heart__translating-heart" xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +230,7 @@
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     viewBox="10 10 24 24">
                                     <defs>
-                                        <linearGradient id="linear-gradient">
+                                        <linearGradient id="linear-gradient-heart3">
                                             <stop class="animated-heart__gradient-stop-1" offset="0">
 
                                             </stop>
@@ -234,7 +239,7 @@
                                             </stop>
                                         </linearGradient>
                                     </defs>
-                                    <path fill="url(#linear-gradient)"
+                                    <path fill="url(#linear-gradient-heart3)"
                                         d="M20,31 C15.4189994,27.2225585 12.5023327,24.2225585 11.25,22 C10.2743515,20.6156479 10,19.6181623 10,18.1428571 C10,15.5113854 12.4883456,13 15,13 C17.3176009,13 18.9621484,13.8491346 20,15.5714286 C21.0382977,13.8491346 22.6828452,13 25,13 C27.5116544,13 30,15.5113854 30,18.1428571 C30,19.6181623 29.7256485,20.6156479 28.75,22 C27.497816,24.2225585 24.5811493,27.2225585 20,31 Z" />
                                 </svg>
                                 <svg class="animated-heart__translating-heart" xmlns="http://www.w3.org/2000/svg"
@@ -261,11 +266,12 @@
             <li class="footer__list-item--medium-font"><a href="#"><i class="fas fa-hands-helping"></i>Devenir
                     partenaire</a></li>
             <li><a href="#">Mention légales</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="mailto:contact@ohmyfood.fr">Contact</a></li>
 
         </ul>
 
     </footer>
+
 </body>
 
 </html>

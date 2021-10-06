@@ -1,6 +1,10 @@
 .list-items-section {
 	padding: 30px 15px;
 
+	&--menu-page-version {
+		padding: 25px 0;
+	}
+
 	&--background-color {
 		background-color: $color-quaternary;
 	}
@@ -8,6 +12,20 @@
 	&__title {
 		@include titles;
 		margin-bottom: 15px;
+
+		&--light {
+			@include light-font-text;
+			position: relative;
+			&:after {
+				content: "";
+
+				width: 48px;
+				position: absolute;
+				bottom: -10px;
+				left: 0;
+				border: solid 2px $color-tertiary;
+			}
+		}
 	}
 }
 
@@ -18,4 +36,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+
+	&--menu-page-version {
+		margin: 0;
+	}
 }

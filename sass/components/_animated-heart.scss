@@ -1,6 +1,7 @@
 .animated-heart {
 	position: relative;
-	max-width: 40px;
+	width: 50px;
+	height: 50px;
 	overflow: hidden;
 
 	&__static-heart {
@@ -10,7 +11,6 @@
 		position: relative;
 		overflow: hidden;
 		z-index: 5;
-		fill: $color-gradient-primary-secondary;
 
 		&:hover {
 			color: transparent;
@@ -58,5 +58,13 @@
 			stroke: transparent;
 			transition: 0.5s;
 		}
+
+		&--grey {
+			background-color: #f2f2f2;
+		}
+	}
+
+	&--menu-page {
+		margin-right: 6%;
 	}
 }
