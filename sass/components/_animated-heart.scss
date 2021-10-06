@@ -1,14 +1,16 @@
 .animated-heart {
 	position: relative;
+	max-width: 40px;
+	overflow: hidden;
 
-	&__heart-logo {
+	&__static-heart {
 		color: black;
 		transition-duration: 0.75s;
 		font-size: 25px;
 		position: relative;
 		overflow: hidden;
 		z-index: 5;
-		background-color: transparent;
+		fill: $color-gradient-primary-secondary;
 
 		&:hover {
 			color: transparent;
@@ -20,15 +22,41 @@
 			}
 		}
 	}
-	&__bg-color-animation {
-		transform: translateY(100%);
-		transition: 0.75s;
-		border: solid;
 
-		background: $color-gradient-primary-secondary;
-		width: 25px;
-		height: 25px;
-		position: absolute;
-		z-index: 1;
+	&__gradient-stop-1 {
+		stop-color: $color-primary;
+	}
+
+	&__gradient-stop-2 {
+		stop-color: $color-secondary;
+	}
+
+	&:hover &__translating-heart {
+		transition: 0.5s;
+		transition-delay: 0.5s;
+		transform: translateY(-210%);
+
+		& path {
+			stroke: transparent;
+			transition: 0.5s;
+		}
+	}
+
+	&__translating-heart {
+		@extend .animated-heart__static-heart;
+		overflow: visible;
+		transform: translateY(-110%);
+		background-color: white;
+		& path {
+			fill: transparent;
+			stroke: black;
+			transition: 0.5s;
+			transition-delay: 0.5s;
+		}
+
+		&:hover path {
+			stroke: transparent;
+			transition: 0.5s;
+		}
 	}
 }
