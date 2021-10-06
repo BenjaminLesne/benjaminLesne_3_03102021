@@ -4,8 +4,8 @@
 
 	&__picture-wrapper {
 		transform: translateY(50px);
-		@include flexbox-center;
 		max-height: 500px;
+		@include flexbox-center;
 	}
 	&__picture {
 		width: 100%;

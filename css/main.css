@@ -874,10 +874,10 @@ body {
 }
 .menu-page__picture-wrapper {
   transform: translateY(50px);
+  max-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 500px;
 }
 .menu-page__picture {
   width: 100%;
