@@ -446,7 +446,6 @@ body {
 .product__info-block {
   background-color: white;
   display: flex;
-  padding: 20px 20px 15px 15px;
   flex: 1;
 }
 .product__title {
@@ -460,14 +459,15 @@ body {
   color: #4d4d4d;
   margin: 0;
 }
-.product__product__text {
-  flex: 1;
+.product__text {
+  padding: 20px 20px 15px 15px;
 }
 .product__add-to-favorite-btn-wrapper {
   display: flex;
   justify-content: right;
   align-items: flex-start;
   flex: 1;
+  padding: 20px 20px 15px 15px;
 }
 
 .animated-heart {
