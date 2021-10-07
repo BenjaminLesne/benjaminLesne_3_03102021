@@ -16,7 +16,7 @@
 	// give each dish-item a different delay
 	$i: 4;
 	@for $i from 1 through $i {
-		&:nth-child(#{$i}) {
+		&:nth-child(0n + #{$i}) {
 			animation-delay: $i*0.1s;
 		}
 	}

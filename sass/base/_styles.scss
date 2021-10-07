@@ -1,7 +1,10 @@
 .body {
+	position: relative;
+}
+
+.main {
 	max-width: 1200px;
 	margin: auto;
-	position: relative;
 
 	&--menu-page {
 		max-width: 900px;
