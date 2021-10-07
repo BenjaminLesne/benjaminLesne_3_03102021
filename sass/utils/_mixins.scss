@@ -36,3 +36,8 @@
 	font-weight: 300;
 	color: lighten($color: #000000, $amount: 30%);
 }
+
+@mixin center-content {
+	max-width: 1200px;
+	margin: auto;
+}
