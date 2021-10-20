@@ -6,6 +6,8 @@
     transform: translateY(50px);
     max-height: 500px;
     @include flexbox-center;
+    overflow: hidden;
+    border-radius: 20px;
   }
   &__picture {
     width: 100%;
