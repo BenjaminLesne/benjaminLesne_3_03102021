@@ -543,6 +543,7 @@ body {
   cursor: pointer;
   animation: appears-gradually 0.75s ease-in-out forwards;
   opacity: 0;
+  overflow: hidden;
 }
 .dish-item:nth-child(0n+1) {
   animation-delay: 0.1s;
