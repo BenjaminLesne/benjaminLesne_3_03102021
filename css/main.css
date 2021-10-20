@@ -895,6 +895,7 @@ body {
   align-items: center;
   overflow: hidden;
   border-radius: 20px;
+  height: 85vw;
 }
 .menu-page__picture {
   width: 100%;
