@@ -893,6 +893,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
 }
 .menu-page__picture {
   width: 100%;
