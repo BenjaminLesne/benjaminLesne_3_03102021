@@ -14,7 +14,7 @@ Vous pouvez retrouver le [brief complet ici](https://s3-eu-west-1.amazonaws.com/
 
 **Liens utiles**
 
-- [site web 🌎](https://benjaminlesne.github.io/benjaminLesne_3_03102021/)
+- [Site Web 🌎](https://benjaminlesne.github.io/benjaminLesne_3_03102021/)
 - [Code Source 📖](https://github.com/BenjaminLesne/BenjaminLesne_13_05122021)
 
 ![screenshot du site](./images/screenshot.png)
