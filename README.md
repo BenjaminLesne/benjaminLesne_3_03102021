@@ -16,7 +16,7 @@ Vous pouvez retrouver le [brief complet ici](https://s3-eu-west-1.amazonaws.com/
 **Liens utiles**
 
 - [Site Web 🌎](https://benjaminlesne.github.io/benjaminLesne_3_03102021/)
-- [Code Source 📖](https://github.com/BenjaminLesne/BenjaminLesne_13_05122021)
+- [Code Source 📖](https://github.com/BenjaminLesne/benjaminLesne_3_03102021/)
 
 ![screenshot du site](./images/screenshot.png)
 
@@ -70,7 +70,7 @@ You can find the [full brief here](https://s3-eu-west-1.amazonaws.com/course.oc-
 **Useful links**
 
 - [Website 🌎](https://benjaminlesne.github.io/benjaminLesne_3_03102021/)
-- [Source code 📖](https://github.com/BenjaminLesne/BenjaminLesne_13_05122021)
+- [Source code 📖](https://github.com/BenjaminLesne/benjaminLesne_3_03102021/)
 
 
 ### Animation
