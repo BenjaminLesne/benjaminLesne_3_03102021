@@ -1,15 +1,16 @@
 # ohmyfood
 English version below!
 
-Troisième projet du parcours "Développeur web" chez OpenClassroom. L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass
+Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
 
 Vous pouvez retrouver le [brief complet ici](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/DW_P3/Brief%20cre%CC%81atif%20-%20Ohmyfood!.pdf)
 
 
 **BUTS DU PROJET**:
 
-- Créer un site web avec des animations
-
+- Mettre en œuvre des effets CSS graphiques avancés
+- Mettre en place une structure de navigation pour un site web
+- Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
 
 
 **Liens utiles**
@@ -46,11 +47,63 @@ Vous pouvez retrouver le [brief complet ici](https://s3-eu-west-1.amazonaws.com/
 
 **Contraintes :**
 - Approche mobile-first: oui
-- Maquette mobile : oui
+- Maquette mobile : fourni
 - Maquette desktop : à improviser
 - Validation W3C HTML : à passer, warning autorisés
 - Validation W3C CSS : à passer, warning autorisés
 - Compatibilité : Chrome, Firefox
+
+# ENGLISH VERSION
+
+Ohmyfood! is a young startup that would like to impose itself on the restaurant market. The objective is to develop a 100% mobile site that lists the menus of gourmet restaurants.
+
+You can find the [full brief here](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/DW_P3/Brief%20cre%CC%81atif%20-%20Ohmyfood!.pdf)
+
+
+**PROJECT GOALS**:
+
+- Implement advanced graphic CSS effects
+- Implement a navigation structure for a website
+- Use a version management system for project tracking and hosting
+
+
+**Useful links**
+
+- [Website 🌎](https://benjaminlesne.github.io/benjaminLesne_3_03102021/)
+- [Source code 📖](https://github.com/BenjaminLesne/BenjaminLesne_13_05122021)
+
+
+### Animation
+
+**Buttons**
+
+- When hovering, the background color of the main buttons should lighten slightly. The drop shadow should also be more visible.
+- Eventually, visitors will be able to save their favorite menus. For this, a heart-shaped "Like" button is present on the model. When clicked, it should fill up progressively. For this first version, the effect can be shown on the hover instead of the click.
+
+**Home page**
+
+- When the application will have more menus, a loading spinner will be necessary. On this mockup, we want to have a preview of it. It will have to appear for 1 to 3 seconds when we arrive on the home page, cover the whole screen, and use CSS animations (no library). The design of this loader is not defined, so any proposal is welcome as long as it is consistent with the graphic charter of the site.
+
+
+**Menu pages
+- Upon arrival on the page, the dishes should appear progressively with a slight delay in time. They can either appear one by one, or in groups "Starter", "Main course" and "Dessert". An example of the expected effect is provided.
+- The visitor can add the dishes he wants to his order by clicking on them. A small tick appears to the right of the dish. This tick should slide from the right to the left. For this first version, the effect can appear on the hover instead of the click. If the title of the dish is too long, it should be trimmed with ellipsis. An example of the expected effect is provided
+
+## Technologies
+
+**Allowed:** HTML / CSS / Sass
+
+**Recommended:** HTML / Sass
+
+**Prohibited:** Javascript / CSS Frameworks / Inline CSS
+
+**Constraints:**
+- Mobile-first approach: yes
+- Mobile mockup: provided
+- Desktop layout: to be improvised
+- W3C HTML validation: to be passed, warning allowed
+- W3C CSS validation: to be passed, warnings allowed
+- Compatibility: Chrome, Firefox
 
 
 ## Installation
