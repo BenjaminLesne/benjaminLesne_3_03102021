@@ -295,8 +295,13 @@ template {
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .body {
   position: relative;
+  scroll-behavior: smooth;
 }
 
 .main {
@@ -612,6 +617,7 @@ body {
   box-shadow: 9px 12px 15px -5px #c9c9c9;
   margin-top: 30px;
   transition: 2s;
+  display: block;
 }
 .call-to-action-btn:hover {
   opacity: 0.8;
@@ -835,7 +841,6 @@ body {
 .list-items-wrapper {
   padding: 0;
   list-style: none;
-  margin-left: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
